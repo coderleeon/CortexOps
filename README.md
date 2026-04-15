@@ -281,3 +281,22 @@ Modern AI applications need more than a single LLM call. OrionAI demonstrates:
 - **Modularity** — Each agent is independent; swap any one without touching the others.
 - **Production patterns** — Async throughout, config-driven, graceful Redis fallback, request deduplication.
 - **Extensibility** — Drop in a real vector DB for the Retriever, or swap the LLM backend with one file change.
+
+
+##  Roadmap
+
+We are actively improving OrionAI. Contributions are welcome!
+
+### Core Improvements
+- [ ] Add Redis-based caching layer for inference optimization
+- [ ] Implement critic agent retry mechanism
+- [ ] Add latency tracking and monitoring
+
+### Advanced Features
+- [ ] Multi-agent consensus mechanism
+- [ ] Streaming responses (token-level)
+- [ ] Distributed worker system
+
+### Developer Experience
+- [ ] Improve logging and debugging tools
+- [ ] Add unit tests for agents
